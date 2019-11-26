@@ -1,0 +1,32 @@
+.frames__img {
+  width: 100%;
+  height: auto;
+}
+
+.frames__tick {
+  border-radius: 50%;
+  background: $pink;
+  width: 35px;
+  height: 35px;
+}
+
+.frames__checkbox {
+  display: flex;
+  flex-direction: column;
+  font-family: Neucha, sans-serif;
+}
+
+.frames__container {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.frames__icon {
+  padding: 4px;
+}
+
+.frames__text {
+  margin-left: 10px;
+  font-family: Neucha, sans-serif;
+  font-size: 18px;
+}

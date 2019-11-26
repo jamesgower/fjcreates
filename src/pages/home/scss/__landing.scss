@@ -1,0 +1,143 @@
+.landing__image-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.landing__image {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.landing__logo {
+  background: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+.landing__info {
+  border: 4px solid $light-pink;
+  border-radius: 5px;
+  width: 45vw;
+  margin: -110px auto 0;
+  background: white;
+  z-index: 2;
+  position: relative;
+  padding: 20px 40px;
+  @media (max-width: $xs-breakpoint) {
+    width: 80vw;
+    padding: 10px 20px;
+    margin: -60px auto 0;
+  }
+}
+
+.button__cakes,
+.button__creations {
+  margin: 0 4px;
+  width: 140px;
+  font-size: 13px;
+
+  border-color: $pink;
+  color: $pink;
+  &:hover {
+    border-color: $pink;
+    background: $pink;
+  }
+}
+
+.home__container {
+  padding-top: 60px;
+  width: 82vw;
+  margin: -20px auto 0;
+  background: white;
+}
+
+.nav__bar {
+  border-top: 3px solid $pink;
+  background: white;
+  height: 40px;
+  display: inline-block;
+  padding: 5px 5vw;
+  width: 100%;
+  font-family: Neucha, sans-serif;
+}
+
+.landing__creates,
+.landing__cakes {
+  display: inline-flex;
+}
+
+.landing__icon {
+  color: $light-pink;
+  font-size: 22px;
+  padding-right: 30px;
+}
+
+.landing__title {
+  font-family: Lobster Two, cursive;
+  color: $pink;
+  font-size: 50px;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.landing__buttons {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav__left {
+  display: inline-flex;
+  float: left;
+}
+
+.nav__right {
+  display: inline-flex;
+  float: right;
+  flex-direction: row-reverse;
+}
+
+.nav__link {
+  padding: 6px 5px;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: $pink;
+    font-weight: bolder;
+  }
+}
+
+.nav__link--active {
+  color: $pink;
+}
+
+.creations__text {
+  font-size: 18px;
+  font-family: Neucha, sans-serif;
+}
+
+.creations__subtitle {
+  font-family: Lobster Two, cursive;
+  font-size: 40px;
+  color: $pink;
+}
+
+.creations__container {
+  background: #fff;
+  margin: 40px auto 0;
+  width: 70vw;
+  padding: 40px;
+  border: 2px solid $light-pink;
+  border-radius: 10px;
+}
